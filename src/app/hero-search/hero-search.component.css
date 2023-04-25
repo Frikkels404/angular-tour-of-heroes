@@ -1,11 +1,17 @@
 /* HeroSearch private styles */
-
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
 label {
   display: block;
   font-weight: bold;
   font-size: 1.2rem;
   margin-top: 1rem;
   margin-bottom: .5rem;
+  margin-right: 1rem;
 
 }
 input {
